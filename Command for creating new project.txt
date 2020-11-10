@@ -1,10 +1,25 @@
+ต้องสร้าง Folder "HelloDjango" ใน GitHub ก่อน
+แล้วเข้าผ่าน cmd เข้าไปใน HelloDjango แล้วค่อย run คำสั่งด้านล่าง
+
 python -m virtualenv .
 .\scripts\activate
+
+pip list --> ไว้ดูว่ามี package อะไรบ้างที่อยู่ใน virtualenv นี้
 
 จะได้ 
 (django) C:\Users\gshiv\Desktop\django>
 
-install Django
+ติดตั้ง Django
+
+pip install Django
+
+ลองใช้ pip list อีกรอบ เราจะเห็นว่ามี package ของ Django ติดตั้งแล้ว 
 
 
 Start Project 
+django-admin
+django-admin startproject store .   ==> สร้างโปรเจค
+python manage.py runserver ==> สั่ง run โปรเจค
+
+จะได้ 
+Starting development server at http://127.0.0.1:8000/
