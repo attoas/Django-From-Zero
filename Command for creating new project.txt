@@ -1,0 +1,10 @@
+python -m virtualenv .
+.\scripts\activate
+
+จะได้ 
+(django) C:\Users\gshiv\Desktop\django>
+
+install Django
+
+
+Start Project 
