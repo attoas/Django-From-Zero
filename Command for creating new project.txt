@@ -18,7 +18,7 @@ pip install Django
 
 Start Project 
 django-admin
-django-admin startproject store .   ==> สร้างโปรเจค
+django-admin startproject store .   ==> สร้างโปรเจค "store"  ==>> django-admin startproject mysite .
 python manage.py runserver ==> สั่ง run โปรเจค
 
 จะได้ 
