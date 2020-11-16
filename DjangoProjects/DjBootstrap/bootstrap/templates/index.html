@@ -107,6 +107,7 @@
             </div>
         </div>
         <form action="/" method="POST">
+            {% csrf_token %}
             <label>ชื่อ นามสกุล : </label>
             <input id='customer_name' type='text' name="customer_name"><br>
             <label>อีเมล:</label><input id="customer_email" type='email' name="customer_email"><br>
